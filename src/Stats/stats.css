@@ -1,0 +1,150 @@
+/* ── CONSTANTS ── */
+:root {
+  --primary: #e0a015;
+  --dark: #191919;
+  --darker: #111111;
+}
+
+.root {
+  background: var(--dark);
+  color: #fff;
+  font-family: 'Barlow', 'Barlow Condensed', sans-serif;
+  overflow-x: hidden;
+}
+
+/* ── STATS ── */
+.stats-bar {
+  background: var(--primary);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px 48px;
+  border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.stat-value {
+  font-size: 40px;
+  font-weight: 900;
+  color: #000;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.stat-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.6);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 6px;
+}
+
+/* ── SECTION BASE ── */
+.section {
+  padding: 100px 48px;
+  background: var(--dark);
+}
+
+.section-eyebrow {
+  color: var(--primary);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-size: clamp(32px, 4vw, 52px);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -1px;
+  color: #fff;
+  margin: 0;
+}
+
+.body {
+  font-size: 16px;
+  color: #999;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+
+/* ── ABOUT ── */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.about-img-block {
+  aspect-ratio: 4/5;
+  position: relative;
+}
+
+.about-img-inner {
+  width: 100%;
+  height: 100%;
+  background: #252525;
+  border: 1px solid rgba(224, 160, 21, 0.2);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.about-img-pattern {
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(224, 160, 21, 0.05) 0,
+    rgba(224, 160, 21, 0.05) 1px,
+    transparent 0,
+    transparent 50%
+  );
+  background-size: 12px 12px;
+}
+
+.about-img-label {
+  font-size: 72px;
+  font-weight: 900;
+  color: rgba(224, 160, 21, 0.15);
+  letter-spacing: -2px;
+  position: relative;
+  z-index: 1;
+}
+
+.about-features {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #ddd;
+}
+
+.feature-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--primary);
+  flex-shrink: 0;
+}

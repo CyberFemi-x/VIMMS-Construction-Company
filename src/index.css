@@ -2,10 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 /* Set global font */
+:root {
+  --primary: #e0a015;
+  --dark: #191919;
+  --darker: #111111;
+}
+
 body {
   font-family: 'Barlow', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fcfcfc;
+  background: var(--dark);
 }
 
+
+.root {
+  background: var(--dark);
+  color: #fff;
+  font-family: 'Barlow', 'Barlow Condensed', sans-serif;
+  overflow-x: hidden;
+}

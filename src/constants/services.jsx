@@ -1,4 +1,4 @@
-const SERVICES = [
+export const SERVICES = [
   {
     icon: "🏗️",
     title: "General Construction",

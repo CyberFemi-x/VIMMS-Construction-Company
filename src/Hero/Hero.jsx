@@ -26,7 +26,7 @@ function Hero() {
       <nav className={`nav ${scrolled ? "nav-scrolled" : ""}`}>
         
         <span className="logo">
-          <span className="logo-accent">VIMSS</span>STRONG
+          <span className="logo-accent">VIMSS CONSTRUCTION COMPANY</span>
         </span>
 
         <div className="nav-links">
