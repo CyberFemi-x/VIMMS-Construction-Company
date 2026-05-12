@@ -1,0 +1,16 @@
+           /* ── FOOTER ── */
+.footer {
+  background: #0d0d0d;
+  padding: 32px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  border-top: 1px solid rgba(224, 160, 21, 0.1);
+}
+
+.footer-text {
+  color: #444;
+  font-size: 13px;
+}
