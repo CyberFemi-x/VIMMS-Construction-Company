@@ -1,0 +1,73 @@
+/* ── SECTION BASE (needed for header styles) ── */
+.section {
+  padding: 100px 48px;
+}
+
+/* ── SECTION HEADER ── */
+.section-header {
+  margin-bottom: 56px;
+}
+
+.section-eyebrow {
+  color: var(--primary);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-size: clamp(32px, 4vw, 52px);
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -1px;
+  color: #fff;
+  margin: 0;
+}
+
+/* ── SERVICES GRID ── */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* ── SERVICE CARD ── */
+.service-card {
+  background: #111;
+  padding: 40px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: background 0.2s;
+  cursor: default;
+}
+
+.service-icon {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.service-title {
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.service-desc {
+  font-size: 14px;
+  color: #888;
+  line-height: 1.7;
+  flex-grow: 1;
+}
+
+.service-arrow {
+  color: var(--primary);
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 8px;
+}

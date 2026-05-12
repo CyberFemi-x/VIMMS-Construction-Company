@@ -1,3 +1,4 @@
+import "./services.css"
 import { SERVICES } from "../constants/services"
 
 function Services (){
@@ -17,10 +18,10 @@ function Services (){
               <h3 className="service-title">{s.title}</h3>
               <p className="service-desc">{s.desc}</p>
               <span className="service-arrow">→</span>
-            </div>
-          ))}
-        </div>
-      </section>
+                </div>
+                    ))}
+                </div>
+            </section>
   
         </>      
     )

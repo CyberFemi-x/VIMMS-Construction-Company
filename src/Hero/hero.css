@@ -114,6 +114,7 @@
 
 /* ── HERO ── */
 .hero {
+    background: white;
   position: relative;
   min-height: 100vh;
   display: flex;
@@ -153,7 +154,7 @@
   line-height: 0.95;
   letter-spacing: -2px;
   margin: 0 0 28px;
-  color: #fff;
+  color: var(--darker);
 }
 
 .hero-accent {
@@ -205,7 +206,7 @@
 
 .btn-ghost {
   display: inline-block;
-  background: transparent;
+  background: var(--darker);
   color: #fff;
   padding: 14px 32px;
   font-weight: 700;
