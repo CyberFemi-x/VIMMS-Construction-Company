@@ -1,7 +1,6 @@
 import './hero.css';
 import { useState, useEffect } from "react";
-
-const NAV_LINKS = ["About", "Services", "Projects", "Contact"];
+import { NAV_LINKS } from '../constants/navLinks';
 
 function Hero() {
 
@@ -85,7 +84,7 @@ function Hero() {
       <section className="hero">
         <div className="hero-grid" />
         <div className="hero-content">
-          <p className="hero-eyebrow">Construction Excellence Since 2006</p>
+          <p className="hero-eyebrow">Construction Excellence Since 2020</p>
           <h1 className="hero-title">
             We Build{" "}
             <span className="hero-accent">

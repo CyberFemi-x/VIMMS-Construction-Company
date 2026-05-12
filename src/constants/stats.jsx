@@ -1,6 +1,6 @@
 export const STATS = [
-  { value: "18+", label: "Years Experience" },
-  { value: "340+", label: "Projects Delivered" },
+  { value: "6+", label: "Years Experience" },
+  { value: "40+", label: "Projects Delivered" },
   { value: "98%", label: "Client Satisfaction" },
-  { value: "50+", label: "Expert Engineers" },
+  { value: "10+", label: "Expert Engineers" },
 ];

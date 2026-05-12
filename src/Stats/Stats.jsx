@@ -21,7 +21,7 @@ function Stats() {
           <div className="about-img-block">
             <div className="about-img-inner">
               <div className="about-img-pattern" />
-              <span className="about-img-label">EST. 2006</span>
+              <span className="about-img-label">EST. 2020</span>
             </div>
           </div>
           <div className="about-text">
