@@ -25,6 +25,7 @@ function Hero() {
       <nav className={`nav ${scrolled ? "nav-scrolled" : ""}`}>
         
         <span className="logo">
+            <img src="/src/assets/logo.svg" alt="VIMSS Logo" className="logo-img" />
           <span className="logo-accent">VIMSS CONSTRUCTION COMPANY</span>
         </span>
 

@@ -30,8 +30,8 @@ function Stats() {
               Built on Trust,<br />Driven by Precision
             </h2>
             <p className="body">
-              BuildStrong has been transforming the Nigerian construction
-              landscape for over 18 years. We combine world-class engineering
+              VIMSS Construction has been transforming the Nigerian construction
+              landscape for over 6 years. We combine world-class engineering
               expertise with deep local knowledge to deliver structures that
               define skylines and stand the test of time.
             </p>

@@ -19,11 +19,20 @@
 }
 
 .logo {
+    display: flex;
+  align-items: center;
+  gap: 10px;
   font-size: 32px;
   font-weight: 800;
   letter-spacing: 2px;
   color: #fff;
   text-decoration: none;
+}
+
+.logo-img{
+ width: 50px;
+  height: 50px;
+  display: block;
 }
 
 .logo-accent {
@@ -141,7 +150,7 @@
 
 .hero-eyebrow {
   color: var(--primary);
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -164,9 +173,9 @@
 
 .hero-sub {
   font-size: 17px;
-  color: #aaa;
+  color: #fff;
   line-height: 1.7;
-  max-width: 480px;
+  max-width: 550px;
   margin-bottom: 40px;
 }
 
