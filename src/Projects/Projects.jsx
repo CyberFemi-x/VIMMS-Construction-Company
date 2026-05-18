@@ -13,19 +13,37 @@ function Projects (){
                 <h2 className="section-title">Recent Projects</h2>
                 </div>
                 <div className="projects-grid">
-                {PROJECTS.map((p, i) => (
-                    <div key={i} className="project-card">
-                    <div className="project-img">
-                        <img src={p.image} alt={p.title} className="project-img-fill" />
-                    </div>
-                    <div className="project-info">
-                        <span className="project-tag">{p.tag}</span>
-                        <span className="project-year">{p.year}</span>
-                    </div>
-                    <h3 className="project-title">{p.title}</h3>
+                    {PROJECTS.map((p, i) => (
+                        <div key={i} className="project-card">
+
+                        <div className="project-img">
+
+                            {/* Main Image */}
+                            <img
+                            src={p.image}
+                            alt={p.title}
+                            className="project-img-fill main-img"
+                            />
+
+                            {/* Hover / Construction Image */}
+                            <img
+                            src={p.hoverImage}
+                            alt={`${p.title} construction`}
+                            className="project-img-fill hover-img"
+                            />
+
+                        </div>
+
+                        <div className="project-info">
+                            <span className="project-tag">{p.tag}</span>
+                            <span className="project-year">{p.year}</span>
+                        </div>
+
+                        <h3 className="project-title">{p.title}</h3>
+
                     </div>
                 ))}
-                </div>
+            </div>
             </section>        
         </>
 

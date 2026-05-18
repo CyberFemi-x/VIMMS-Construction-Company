@@ -18,7 +18,7 @@ function Hero() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
+  
   return (
     <>
       {/* ── NAV ── */}

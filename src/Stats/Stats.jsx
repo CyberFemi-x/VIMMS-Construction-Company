@@ -36,9 +36,10 @@ function Stats() {
               define skylines and stand the test of time.
             </p>
             <p className="body">
-              From groundbreaking to ribbon-cutting, our team of certified
-              engineers and skilled tradespeople maintain uncompromising
-              standards at every stage of the build.
+              Our certified engineering team and skilled tradespeople 
+              maintain rigorous, uncompromising standards throughout 
+              the entire construction lifecycle, ensuring excellence 
+              from groundbreaking to project completion.
             </p>
             <div className="about-features">
               {["ISO 9001 Certified", "COREN Registered", "Safety First Culture"].map((f) => (

@@ -1,8 +1,13 @@
 /* ── PROJECTS ── */
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 24px;
+}
+
+.project-card {
+  cursor: pointer;
 }
 
 .project-img {
@@ -13,11 +18,39 @@
   position: relative;
 }
 
+/* Shared image styles */
 .project-img-fill {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+
+  position: absolute;
+  inset: 0;
+
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Default visible image */
+.main-img {
+  opacity: 1;
+  z-index: 1;
+}
+
+/* Hidden hover image */
+.hover-img {
+  opacity: 0;
+  z-index: 2;
+}
+
+/* Hover Effects */
+.project-card:hover .hover-img {
+  opacity: 1;
+  transform: scale(1.03);
+}
+
+.project-card:hover .main-img {
+  opacity: 0;
 }
 
 .project-info {
@@ -51,3 +84,6 @@
   letter-spacing: -0.5px;
 }
 
+.section-eyebrow {
+  font-size: 22px;
+}
