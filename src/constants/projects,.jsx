@@ -22,7 +22,7 @@ export const PROJECTS = [
     tag: "Residential",
     year: "2023",
     image: IMAGES.projectThree,
-    hoverImage: IMAGES.constructionThree,
+    hoverImage: IMAGES.constructionFour,
   },
 
   {
