@@ -2,9 +2,9 @@ import { IMAGES } from "./images";
 
 export const PROJECTS = [
   {
-    title: "Lagos Commercial Hub",
+    title: "Terraced Duplex",
     tag: "Commercial",
-    year: "2024",
+    year: "2025",
     image: IMAGES.projectOne,
     hoverImage: IMAGES.constructionOne,
   },
@@ -12,7 +12,7 @@ export const PROJECTS = [
   {
     title: "Luxury Terraced Duplex Development",
     tag: "Residential",
-    year: "2023",
+    year: "2025",
     image: IMAGES.projectTwo,
     hoverImage: IMAGES.constructionTwo,
   },
@@ -20,15 +20,15 @@ export const PROJECTS = [
   {
     title: "Detached Bungalow",
     tag: "Residential",
-    year: "2023",
+    year: "2025",
     image: IMAGES.projectThree,
     hoverImage: IMAGES.constructionFour,
   },
 
   {
-    title: "Ikoyi Luxury Estate",
+    title: "Floor Finishing",
     tag: "Residential",
-    year: "2022",
+    year: "2025",
     image: IMAGES.projectFour,
     hoverImage: IMAGES.constructionFour,
   },
